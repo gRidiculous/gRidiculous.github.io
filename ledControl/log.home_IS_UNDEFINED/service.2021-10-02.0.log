@@ -1,0 +1,21 @@
+2021-10-02 10:54:09.437 [main] INFO  com.example.ledControl.LedControlApplicationTests[55] - Starting LedControlApplicationTests using Java 1.8.0_271 on DESKTOP-IFC2350 with PID 12920 (started by Think in F:\javaprojects\ledControl)
+2021-10-02 10:54:09.455 [main] INFO  com.example.ledControl.LedControlApplicationTests[660] - No active profile set, falling back to default profiles: default
+2021-10-02 10:54:12.750 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-02 10:54:15.223 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler[181] - Initializing ExecutorService 'taskScheduler'
+2021-10-02 10:54:15.299 [main] INFO  com.example.ledControl.LedControlApplicationTests[61] - Started LedControlApplicationTests in 6.924 seconds (JVM running for 10.298)
+2021-10-02 10:54:16.770 [main] INFO  com.example.ledControl.model.service.MqttService[75] - mqtt info :MqttService(asyncService=org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor@469d003c, ReceiveService=com.example.ledControl.model.service.ReceiveService@757529a4, host=tcp://mqtt.weiotchina.cn:1883, clientid=ledControl009035e3-3e33-41c6-a39e-46511ac34de8, topicPushHeartbeaTopic=null, userName=gg, passWord=guogang123, topicHeartbeat=heartbeat, receive=mqtt/site/face/#, receive1=car/300000000000060023, receivepost=/weiotchina/msg/receive/v1/, client=null, options=
+============== Connection options ==============
+CleanSession                :  true
+SocketFactory               :  null
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  30
+UserName                    :  null
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+, isConnecting=false)
+2021-10-02 10:54:17.444 [MQTT Call: ledControl009035e3-3e33-41c6-a39e-46511ac34de8] INFO  com.example.ledControl.model.service.MqttService[136] - mqtt 己连接
+2021-10-02 10:54:17.487 [MQTT Call: ledControl009035e3-3e33-41c6-a39e-46511ac34de8] INFO  com.example.ledControl.model.service.MqttService[141] - mqtt 己订阅主题: mqtt/site/face/# car/300000000000060023 /weiotchina/msg/receive/v1/300000000000060023
+2021-10-02 10:54:18.085 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler[218] - Shutting down ExecutorService 'taskScheduler'
+2021-10-02 10:54:18.090 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor[218] - Shutting down ExecutorService 'applicationTaskExecutor'

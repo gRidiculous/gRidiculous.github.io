@@ -1,0 +1,26 @@
+2021-09-14 10:46:58.676 [main] ERROR org.springframework.boot.SpringApplication[856] - Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:785)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.ledControl.LedControlApplication.main(LedControlApplication.java:10)
+Caused by: java.lang.NullPointerException: null
+	at com.example.ledControl.model.util.MyApplicationRunner.run(MyApplicationRunner.java:81)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795)
+	... 5 common frames omitted
+2021-09-14 10:52:18.884 [main] ERROR org.springframework.boot.SpringApplication[856] - Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:785)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.ledControl.LedControlApplication.main(LedControlApplication.java:10)
+Caused by: java.lang.NullPointerException: null
+	at com.example.ledControl.model.util.MyApplicationRunner.run(MyApplicationRunner.java:81)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795)
+	... 5 common frames omitted
+2021-09-14 11:35:10.329 [MQTT Call: ledControl94a06c9f-08e6-4db7-a785-0e73d1546474] ERROR com.example.ledControl.model.service.MqttService[105] - Lost connection!!! {}
+2021-09-14 11:43:55.008 [MQTT Rec: ledControl654116e0-3428-4af7-83cc-5448eda08267] ERROR com.example.ledControl.model.service.MqttService[107] - Lost connection!!! {}

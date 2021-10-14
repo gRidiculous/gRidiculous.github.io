@@ -1,0 +1,24 @@
+[
+   {
+      "devicesType":34,
+      "din":"300000000000050088",
+      "name":"测试网关",
+      "projectId":"project-test"
+   },
+   {
+      "area":2,
+      "effects":0,
+      "ledIp":"192.168.110.99",
+      "devicesType":51,
+      "din":"123456789",
+      "KaoQineffects":0,
+      "ledPort":10000,
+      "alterarea":3
+   },
+   {
+      "devicesType":52,
+      "ledDin":"123456789",
+      "din":"1437371"
+   }
+
+]

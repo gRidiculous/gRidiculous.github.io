@@ -1,0 +1,2 @@
+2021-10-13 08:55:35.925 [main] ERROR com.example.ledControl.model.service.MqttService[163] - Wed Oct 13 08:55:35 CST 2021连接mqtt失败: MqttException (0) - java.net.UnknownHostException: mqtt.weiotchina.cn
+2021-10-13 14:02:10.035 [main] ERROR com.example.ledControl.model.service.MqttService[163] - Wed Oct 13 14:02:10 CST 2021连接mqtt失败: MqttException (0) - java.net.UnknownHostException: mqtt.weiotchina.cn

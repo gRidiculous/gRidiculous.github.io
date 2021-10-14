@@ -1,0 +1,59 @@
+2021-08-05 10:02:05.910 [main] INFO  com.example.ledControl.LedControlApplication[55] - Starting LedControlApplication using Java 1.8.0_271 on DESKTOP-IFC2350 with PID 18148 (F:\javaprojects\ledControl\target\classes started by Think in F:\javaprojects\ledControl)
+2021-08-05 10:02:05.922 [main] INFO  com.example.ledControl.LedControlApplication[660] - No active profile set, falling back to default profiles: default
+2021-08-05 10:02:08.904 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 9080 (http)
+2021-08-05 10:02:08.925 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-9080"]
+2021-08-05 10:02:08.926 [main] INFO  org.apache.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021-08-05 10:02:08.927 [main] INFO  org.apache.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-08-05 10:02:09.109 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021-08-05 10:02:09.110 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 2982 ms
+2021-08-05 10:02:09.365 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-05 10:02:09.941 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler[181] - Initializing ExecutorService 'taskScheduler'
+2021-08-05 10:02:09.967 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-9080"]
+2021-08-05 10:02:10.035 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 9080 (http) with context path ''
+2021-08-05 10:02:10.069 [main] INFO  com.example.ledControl.LedControlApplication[61] - Started LedControlApplication in 4.923 seconds (JVM running for 5.853)
+2021-08-05 10:02:10.089 [main] INFO  com.example.ledControl.model.service.MqttService[70] - mqtt info :MqttService(asyncService=org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor@44d70181, ReceiveService=com.example.ledControl.model.service.ReceiveService@48d7ad8b, host=tcp://mqtt.weiotchina.cn:1883, clientid=ledControl_Test5G, userName=gg, passWord=guogang123, receive=ledControl_Test_888888888888, client=null, options=
+============== Connection options ==============
+CleanSession                :  true
+SocketFactory               :  null
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  30
+UserName                    :  null
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+, isConnecting=false)
+2021-08-05 10:02:10.549 [MQTT Call: ledControl_Test5G] INFO  com.example.ledControl.model.service.MqttService[130] - mqtt 己连接
+2021-08-05 10:02:10.569 [MQTT Call: ledControl_Test5G] INFO  com.example.ledControl.model.service.MqttService[135] - mqtt 己订阅主题: ledControl_Test_888888888888
+2021-08-05 10:02:58.821 [MQTT Call: ledControl_Test5G] INFO  com.example.ledControl.model.service.MqttService[109] - 接收消息主题 : ledControl_Test_888888888888
+2021-08-05 10:02:58.822 [MQTT Call: ledControl_Test5G] INFO  com.example.ledControl.model.service.MqttService[110] - 接收消息内容 : {"data":{"area":1,"content":"热烈欢迎","ip":"192.168.1.99","port":10000,"effects":0},"seq":31}
+2021-08-05 10:07:46.925 [main] INFO  com.example.ledControl.LedControlApplication[55] - Starting LedControlApplication using Java 1.8.0_271 on DESKTOP-IFC2350 with PID 23544 (F:\javaprojects\ledControl\target\classes started by Think in F:\javaprojects\ledControl)
+2021-08-05 10:07:46.931 [main] INFO  com.example.ledControl.LedControlApplication[660] - No active profile set, falling back to default profiles: default
+2021-08-05 10:07:48.905 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 9080 (http)
+2021-08-05 10:07:48.918 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-9080"]
+2021-08-05 10:07:48.919 [main] INFO  org.apache.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021-08-05 10:07:48.920 [main] INFO  org.apache.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-08-05 10:07:49.056 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021-08-05 10:07:49.056 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 2041 ms
+2021-08-05 10:07:49.228 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-05 10:07:49.713 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler[181] - Initializing ExecutorService 'taskScheduler'
+2021-08-05 10:07:49.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-9080"]
+2021-08-05 10:07:49.775 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 9080 (http) with context path ''
+2021-08-05 10:07:49.799 [main] INFO  com.example.ledControl.LedControlApplication[61] - Started LedControlApplication in 3.838 seconds (JVM running for 4.624)
+2021-08-05 10:07:49.808 [main] INFO  com.example.ledControl.model.service.MqttService[70] - mqtt info :MqttService(asyncService=org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor@4e406694, ReceiveService=com.example.ledControl.model.service.ReceiveService@2c0f7678, host=tcp://mqtt.weiotchina.cn:1883, clientid=ledControl_TestL3, userName=gg, passWord=guogang123, receive=ledControl_Test_888888888888, client=null, options=
+============== Connection options ==============
+CleanSession                :  true
+SocketFactory               :  null
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  30
+UserName                    :  null
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+, isConnecting=false)
+2021-08-05 10:07:50.336 [MQTT Call: ledControl_TestL3] INFO  com.example.ledControl.model.service.MqttService[130] - mqtt 己连接
+2021-08-05 10:07:50.358 [MQTT Call: ledControl_TestL3] INFO  com.example.ledControl.model.service.MqttService[135] - mqtt 己订阅主题: ledControl_Test_888888888888
+2021-08-05 10:07:58.206 [MQTT Call: ledControl_TestL3] INFO  com.example.ledControl.model.service.MqttService[109] - 接收消息主题 : ledControl_Test_888888888888
+2021-08-05 10:07:58.207 [MQTT Call: ledControl_TestL3] INFO  com.example.ledControl.model.service.MqttService[110] - 接收消息内容 : {"data":{"area":1,"content":"热烈欢迎","ip":"192.168.1.99","port":10000,"effects":0},"seq":31}
+2021-08-05 10:07:58.326 [task-1] INFO  com.example.ledControl.model.service.LedService[134] - ip:192.168.1.99  port:10000  发送的消息:热烈欢迎  更新的区域:1 更新的效果:0
